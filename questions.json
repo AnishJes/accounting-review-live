@@ -1,0 +1,1103 @@
+{
+  "title": "Mock Exam 3 Review: Chapters 7, 8 & 9",
+  "questions": [
+    {
+      "n": 1,
+      "ch": 7,
+      "topic": "Bank reconciliation: where items go",
+      "data": null,
+      "dataHeader": null,
+      "explain": "False. The bank has already deducted the NSF check, so the company's books are the side that has not recorded it. It is deducted from the balance per books and requires a journal entry (debit Accounts receivable, credit Cash).",
+      "type": "tf",
+      "prompt": "Balance Beam Gymnastics Co. is preparing its bank reconciliation. A customer's check that the bank returned NSF should be deducted from the balance per bank statement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "time": 25
+    },
+    {
+      "n": 2,
+      "ch": 7,
+      "topic": "Cash and cash equivalents",
+      "data": [
+        [
+          "Currency and coins",
+          "$1,250"
+        ],
+        [
+          "Balance in checking account at First Bank",
+          "$18,400"
+        ],
+        [
+          "Overdraft in checking account at Second Bank",
+          "$2,500"
+        ],
+        [
+          "Customer checks received but not yet deposited",
+          "$3,100"
+        ],
+        [
+          "Postdated customer check (dated January 20, 2026)",
+          "$900"
+        ],
+        [
+          "Petty cash fund",
+          "$300"
+        ],
+        [
+          "Postage stamps on hand",
+          "$150"
+        ],
+        [
+          "Treasury bills purchased 12/1/2025, maturing 2/28/2026",
+          "$8,000"
+        ],
+        [
+          "Treasury bills purchased 6/1/2025, maturing 3/1/2026",
+          "$6,000"
+        ],
+        [
+          "Commercial paper purchased 11/15/2025, maturing 1/15/2026",
+          "$5,000"
+        ],
+        [
+          "Cash restricted for construction of a new plant in 2028",
+          "$20,000"
+        ]
+      ],
+      "dataHeader": null,
+      "explain": "Cash and cash equivalents = 1,250 + 18,400 + 3,100 + 300 + 8,000 + 5,000 = $36,050. Excluded: the overdraft at a different bank is a current liability, not an offset; the postdated check is a receivable; stamps are a prepaid expense; the June T-bills had an original maturity of 9 months (what matters is the original maturity, not the time remaining); restricted cash for long-term plant construction is reported separately as a noncurrent asset.",
+      "type": "mc",
+      "prompt": "Penny for Your Thoughts Co. had the following items at December 31, 2025. What amount should it report as cash and cash equivalents?",
+      "options": [
+        "$36,050",
+        "$33,550",
+        "$42,050",
+        "$56,050"
+      ],
+      "answer": 0,
+      "time": 120
+    },
+    {
+      "n": 3,
+      "ch": 7,
+      "topic": "Internal control over cash",
+      "data": null,
+      "dataHeader": null,
+      "explain": "False. Good internal control requires separation of duties. The person who handles or records cash receipts should not also reconcile the bank account, because that person could hide a theft in the reconciliation.",
+      "type": "tf",
+      "prompt": "At Separation Anxiety Co., the employee who opens the mail and records customer payments also prepares the monthly bank reconciliation. This arrangement is consistent with good internal control over cash.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "time": 25
+    },
+    {
+      "n": 4,
+      "ch": 7,
+      "topic": "Bank reconciliation: working backwards",
+      "data": [
+        [
+          "Deposits in transit",
+          "$2,350"
+        ],
+        [
+          "Outstanding checks",
+          "$3,980"
+        ],
+        [
+          "Check of another company incorrectly charged to Check Please's account by the bank",
+          "$140"
+        ],
+        [
+          "Customer's check returned NSF, not yet recorded by the company",
+          "$410"
+        ],
+        [
+          "Bank service charge",
+          "$35"
+        ],
+        [
+          "Note receivable collected by the bank: face $2,500, interest $75, collection fee $15",
+          "$2,560 net"
+        ],
+        [
+          "Check for $462 (payment of account payable) was recorded in the cash disbursements journal as $426",
+          "$36"
+        ],
+        [
+          "EFT payment for utilities, not yet recorded by the company",
+          "$220"
+        ]
+      ],
+      "dataHeader": null,
+      "explain": "Bank side: 18,640 + 2,350 deposits in transit + 140 bank error − 3,980 outstanding checks = $17,150. Book side adjustments: + 2,500 note + 75 interest − 15 collection fee − 410 NSF − 35 service charge − 36 recording error − 220 EFT = +1,859 in total. Balance per books = 17,150 − 1,859 = $15,291. The check was recorded $36 too low, so the books overstate cash by $36 and that amount is deducted.",
+      "type": "mc",
+      "prompt": "Check Please Diner received its June 30 bank statement showing a balance of $18,640. The following information is available. The balance per books was not given. What was the balance per books on June 30, before adjustments?",
+      "options": [
+        "$15,219",
+        "$15,291",
+        "$15,071",
+        "$17,150"
+      ],
+      "answer": 1,
+      "time": 150
+    },
+    {
+      "n": 5,
+      "ch": 7,
+      "topic": "Bank reconciliation: entries on company books",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Only items on the book side of the reconciliation need entries: the NSF check, service charges, the note collected and the company's own recording error. Deposits in transit and outstanding checks are timing differences the bank will clear, and the bank error is corrected by the bank.",
+      "type": "ms",
+      "prompt": "Bank Shot Billiards Co. just completed its bank reconciliation. Which of the following reconciling items require a journal entry on Bank Shot's books?",
+      "options": [
+        "Deposits in transit",
+        "A customer's NSF check returned by the bank",
+        "Outstanding checks",
+        "Bank service charges",
+        "A check of another company charged to Bank Shot's account by mistake",
+        "A note receivable collected by the bank on Bank Shot's behalf",
+        "A check that Bank Shot recorded for the wrong amount"
+      ],
+      "answer": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "time": 60
+    },
+    {
+      "n": 6,
+      "ch": 7,
+      "topic": "Sales discounts: net method",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Under the net method, the receivable was recorded at 24,000 × 98% = 23,520. When the customer pays late, the extra $480 is recorded as Sales discounts forfeited, not as additional sales revenue.",
+      "type": "mc",
+      "prompt": "Dough-n't Worry Donuts uses the net method to record sales discounts. It sold $24,000 of merchandise on account with terms 2/10, n/30. The customer paid the full amount after the discount period. What entry does Dough-n't Worry record when it receives payment?",
+      "options": [
+        "Debit Cash 24,000; credit Accounts receivable 24,000",
+        "Debit Cash 23,520 and Sales discounts 480; credit Accounts receivable 24,000",
+        "Debit Cash 24,000; credit Accounts receivable 23,520 and Sales revenue 480",
+        "Debit Cash 24,000; credit Accounts receivable 23,520 and Sales discounts forfeited 480"
+      ],
+      "answer": 3,
+      "time": 40
+    },
+    {
+      "n": 7,
+      "ch": 7,
+      "topic": "Sales discounts: gross method, partial payment",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Gross method: sales revenue is recorded at 18,500. The discount taken on the $10,000 portion is 10,000 × 3% = 300, recorded as Sales discounts (contra revenue). The June 10 payment is after the discount period, so no discount applies to the remaining 8,500. Net sales = 18,500 − 300 = $18,200.",
+      "type": "mc",
+      "prompt": "Early Bird Gets the Discount Co. uses the gross method. On May 2 it sold $18,500 of merchandise on account with terms 3/10, n/45. On May 9 the customer paid enough cash to settle $10,000 of the invoice, taking the discount on that portion. The customer paid the remaining balance on June 10. What amount of net sales should Early Bird report for this sale?",
+      "options": [
+        "$17,945",
+        "$18,500",
+        "$18,200",
+        "$18,245"
+      ],
+      "answer": 2,
+      "time": 90
+    },
+    {
+      "n": 8,
+      "ch": 7,
+      "topic": "Aging schedule with a debit pre-adjustment balance",
+      "data": [
+        [
+          "Current",
+          "$240,000",
+          "1%"
+        ],
+        [
+          "1–30 days past due",
+          "$95,000",
+          "4%"
+        ],
+        [
+          "31–60 days past due",
+          "$42,000",
+          "10%"
+        ],
+        [
+          "Over 60 days past due",
+          "$18,000",
+          "30%"
+        ]
+      ],
+      "dataHeader": [
+        "Age of accounts",
+        "Amount",
+        "Estimated % uncollectible"
+      ],
+      "explain": "Required ending allowance = 2,400 + 3,800 + 4,200 + 5,400 = 15,800 credit. Because the allowance starts with a 2,100 debit balance, the adjustment must credit it for 15,800 + 2,100 = $17,900, which is bad debt expense. Net realizable value = total receivables 395,000 − allowance 15,800 = $379,200.",
+      "type": "mc",
+      "prompt": "Aging Like Fine Cheese Co. prepared the following aging schedule at December 31. Before adjustment, the Allowance for Uncollectible Accounts has a debit balance of $2,100. What is bad debt expense for the year?",
+      "options": [
+        "$15,800",
+        "$13,700",
+        "$19,750",
+        "$17,900"
+      ],
+      "answer": 3,
+      "time": 120
+    },
+    {
+      "n": 9,
+      "ch": 7,
+      "topic": "Allowance roll-forward with a recovery",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Pre-adjustment allowance = 9,400 − 11,750 write-offs + 1,300 reinstatement = 1,050 debit. Required ending allowance = 284,000 × 5% = 14,200 credit. Bad debt expense = 14,200 + 1,050 = $15,250.",
+      "type": "mc",
+      "prompt": "Write-Off Into the Sunset Co. began the year with a $9,400 credit balance in Allowance for Uncollectible Accounts. During the year it wrote off $11,750 of accounts. It also reinstated and collected a $1,300 account that had been written off in a prior year. At year-end, accounts receivable total $284,000, and the company estimates that 5% will be uncollectible. What is bad debt expense for the year?",
+      "options": [
+        "$15,250",
+        "$14,200",
+        "$13,150",
+        "$16,550"
+      ],
+      "answer": 0,
+      "time": 120
+    },
+    {
+      "n": 10,
+      "ch": 7,
+      "topic": "Effect of a write-off (allowance method)",
+      "data": null,
+      "dataHeader": null,
+      "explain": "The write-off debits the allowance and credits accounts receivable by the same amount, so net receivables do not change. No expense is recorded, because bad debt expense was already estimated when the allowance was adjusted.",
+      "type": "mc",
+      "prompt": "No Net Change Fishing Co. uses the allowance method. It writes off a $3,200 customer account as uncollectible. What is the effect of the write-off on net accounts receivable and on net income?",
+      "options": [
+        "No effect on net accounts receivable; no effect on net income",
+        "Decreases net accounts receivable; decreases net income",
+        "Decreases net accounts receivable; no effect on net income",
+        "No effect on net accounts receivable; decreases net income"
+      ],
+      "answer": 0,
+      "time": 40
+    },
+    {
+      "n": 11,
+      "ch": 7,
+      "topic": "Reinstating a written-off account",
+      "data": null,
+      "dataHeader": null,
+      "explain": "First reverse the write-off to reinstate the receivable (debit A/R, credit Allowance), then record the collection (debit Cash, credit A/R). Reinstating first keeps a record that the customer did pay.",
+      "type": "mc",
+      "prompt": "Comeback Kid Co. uses the allowance method. A customer whose $800 account was written off last year unexpectedly pays in full. Which entries should Comeback Kid record?",
+      "options": [
+        "Debit Cash 800; credit Bad debt expense 800",
+        "Debit Accounts receivable 800; credit Allowance for uncollectible accounts 800. Then debit Cash 800; credit Accounts receivable 800",
+        "Debit Cash 800; credit Allowance for uncollectible accounts 800 only",
+        "Debit Allowance for uncollectible accounts 800; credit Accounts receivable 800. Then debit Cash 800; credit Accounts receivable 800"
+      ],
+      "answer": 1,
+      "time": 60
+    },
+    {
+      "n": 12,
+      "ch": 7,
+      "topic": "Factoring with and without recourse",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Cash = 120,000 × 88% = $105,600. Factoring fee = 120,000 × 3% = 3,600. Receivable from factor = 13,500 − 3,600 = 9,900. Without recourse: loss = 120,000 − 105,600 − 9,900 = $4,500. Entry: Dr Cash 105,600, Dr Receivable from factor 9,900, Dr Loss 4,500; Cr Accounts receivable 120,000. With recourse: the 2,400 recourse liability increases the loss to $6,900 (also credit Recourse liability 2,400).",
+      "type": "mc",
+      "prompt": "Factor Fiction Corp. factors $120,000 of accounts receivable with Quick Cash Capital, which will collect the receivables. Quick Cash immediately remits 88% of the factored amount and retains 12% to cover its factoring fee and possible returns. The factoring fee is 3% of the factored amount. After collecting the amount advanced plus its fee, Quick Cash will remit the excess. Management estimates that the fair value of the last 12% to be collected is $13,500. What is the loss on sale of receivables if the transfer is WITHOUT recourse?",
+      "options": [
+        "$3,600",
+        "$4,500",
+        "$6,900",
+        "$14,400"
+      ],
+      "answer": 1,
+      "time": 120
+    },
+    {
+      "n": 13,
+      "ch": 7,
+      "topic": "Secured borrowing vs. sale",
+      "data": null,
+      "dataHeader": null,
+      "explain": "When the transferor keeps effective control, the transfer does not qualify as a sale. The receivables stay on the balance sheet as collateral, and the cash received is recorded as a liability (a secured borrowing).",
+      "type": "mc",
+      "prompt": "Control Freak Co. transfers receivables to a finance company but keeps effective control over them. How should Control Freak account for the transfer?",
+      "options": [
+        "As a sale of receivables, recognizing a gain or loss",
+        "As a sale without recourse",
+        "As a secured borrowing, keeping the receivables on its books and recording a liability",
+        "As a reduction of bad debt expense"
+      ],
+      "answer": 2,
+      "time": 40
+    },
+    {
+      "n": 14,
+      "ch": 7,
+      "topic": "Receivables turnover",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Average receivables = (168,000 + 197,000) ÷ 2 = 182,500. Turnover = 1,460,000 ÷ 182,500 = 8.0 times. Average collection period = 365 ÷ 8.0 = 45.6 days.",
+      "type": "mc",
+      "prompt": "Turnover a New Leaf Co. reported net credit sales of $1,460,000 for the year. Net accounts receivable were $168,000 at the beginning of the year and $197,000 at the end of the year. What is the average collection period (365 days)?",
+      "options": [
+        "42.0 days",
+        "49.3 days",
+        "45.6 days",
+        "8.0 days"
+      ],
+      "answer": 2,
+      "time": 90
+    },
+    {
+      "n": 15,
+      "ch": 8,
+      "topic": "Product vs. period costs",
+      "data": null,
+      "dataHeader": null,
+      "explain": "False. Freight-out is a period cost, expensed as a selling or delivery expense. Freight-in, which gets inventory into place and condition for sale, is the shipping cost included in inventory.",
+      "type": "tf",
+      "prompt": "Freight Expectations Co. pays shipping costs to deliver goods to its customers (freight-out). These costs should be included in the cost of inventory.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "time": 25
+    },
+    {
+      "n": 16,
+      "ch": 8,
+      "topic": "Goods in transit and consignment",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Title Wave owns goods it bought FOB shipping point (title passed at shipment), goods it sold FOB destination (title has not passed yet) and its own goods held by a consignee. Goods it holds on consignment belong to the consignor.",
+      "type": "ms",
+      "prompt": "Which of the following should be included in Title Wave Surf Shop's ending inventory at December 31?",
+      "options": [
+        "Surfboards purchased FOB shipping point that are still in transit",
+        "Surfboards purchased FOB destination that are still in transit",
+        "Wetsuits sold to a customer FOB destination that are still in transit",
+        "Wetsuits sold to a customer FOB shipping point that are still in transit",
+        "Paddleboards Title Wave is holding on consignment for another company",
+        "Boogie boards Title Wave shipped to a consignee that remain unsold"
+      ],
+      "answer": [
+        0,
+        2,
+        5
+      ],
+      "time": 60
+    },
+    {
+      "n": 17,
+      "ch": 8,
+      "topic": "Adjusting a physical count",
+      "data": [
+        [
+          "Goods purchased FOB shipping point, in transit at year-end (not counted)",
+          "$9,500"
+        ],
+        [
+          "Goods sold FOB destination, in transit at year-end (not counted)",
+          "$6,200"
+        ],
+        [
+          "Count Me In's goods held by a consignee (not counted)",
+          "$12,000"
+        ],
+        [
+          "Goods held on consignment from another company (included in the count)",
+          "$7,800"
+        ],
+        [
+          "Goods purchased FOB destination, in transit at year-end (not counted)",
+          "$4,000"
+        ]
+      ],
+      "dataHeader": null,
+      "explain": "182,000 + 9,500 + 6,200 + 12,000 − 7,800 = $201,900. Goods purchased FOB destination still belong to the seller, so they are not added.",
+      "type": "mc",
+      "prompt": "Count Me In Co.'s physical count on December 31 shows inventory of $182,000. The count included all goods physically in the warehouse. The following items were discovered. What is the correct ending inventory?",
+      "options": [
+        "$205,900",
+        "$217,500",
+        "$195,700",
+        "$201,900"
+      ],
+      "answer": 3,
+      "time": 120
+    },
+    {
+      "n": 18,
+      "ch": 8,
+      "topic": "Net purchases and cost of goods sold",
+      "data": [
+        [
+          "Beginning inventory",
+          "$45,000"
+        ],
+        [
+          "Purchases",
+          "$260,000"
+        ],
+        [
+          "Freight-in",
+          "$8,400"
+        ],
+        [
+          "Freight-out",
+          "$5,100"
+        ],
+        [
+          "Purchase returns and allowances",
+          "$6,300"
+        ],
+        [
+          "Purchase discounts",
+          "$4,100"
+        ],
+        [
+          "Ending inventory",
+          "$52,000"
+        ]
+      ],
+      "dataHeader": null,
+      "explain": "Net purchases = 260,000 + 8,400 − 6,300 − 4,100 = $258,000. Freight-out is a selling expense and is excluded. Cost of goods available = 45,000 + 258,000 = $303,000. COGS = 303,000 − 52,000 = $251,000.",
+      "type": "mc",
+      "prompt": "Net Gains Fishing Gear uses a periodic inventory system and reports the following for the year. What is cost of goods sold?",
+      "options": [
+        "$251,000",
+        "$256,100",
+        "$242,600",
+        "$261,400"
+      ],
+      "answer": 0,
+      "time": 120
+    },
+    {
+      "n": 19,
+      "ch": 8,
+      "topic": "Perpetual system: physical count adjustment",
+      "data": null,
+      "dataHeader": null,
+      "explain": "The 30 missing units (30 × $12 = $360) are shrinkage. Under a perpetual system, inventory is reduced to the physical count, usually with a debit to Cost of goods sold.",
+      "type": "mc",
+      "prompt": "Shelf Help Co. uses a perpetual inventory system. Its records show 500 units at $12 each, but the year-end physical count finds only 470 units. What adjusting entry is required?",
+      "options": [
+        "No entry; the perpetual records are already up to date",
+        "Debit Inventory 360; credit Cost of goods sold 360",
+        "Debit Purchases 360; credit Inventory 360",
+        "Debit Cost of goods sold 360; credit Inventory 360"
+      ],
+      "answer": 3,
+      "time": 40
+    },
+    {
+      "n": 20,
+      "ch": 8,
+      "topic": "Periodic vs. perpetual systems",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Under a periodic system, purchases go to temporary accounts (Purchases, Purchase returns, Freight-in), and COGS is computed at period-end as beginning inventory + net purchases − ending inventory. The other statements describe a perpetual system.",
+      "type": "mc",
+      "prompt": "Periodic Table Furniture Co. uses a periodic inventory system. Which statement is true?",
+      "options": [
+        "Cost of goods sold is recorded each time a sale is made.",
+        "Purchases are recorded in a Purchases account, and cost of goods sold is determined at the end of the period.",
+        "The Inventory account is updated continuously for each purchase and sale.",
+        "Purchase returns are credited directly to Inventory."
+      ],
+      "answer": 1,
+      "time": 60
+    },
+    {
+      "n": 21,
+      "ch": 8,
+      "topic": "Purchase discounts: net method, partial payment",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Net method: Inventory and Accounts payable are recorded at 30,000 × 98% = $29,400. July 12: 12,000 × 98% = $11,760, paid within the discount period. August 1: the remaining 18,000 is paid in full. The discount missed is 18,000 × 2% = $360, debited to Purchase discounts lost (Dr A/P 17,640, Dr Purchase discounts lost 360, Cr Cash 18,000).",
+      "type": "mc",
+      "prompt": "Byte-Sized Books uses a perpetual system and the net method. On July 3 it purchased $30,000 of inventory on account with terms 2/10, n/30. On July 12 it paid for $12,000 of the invoice (gross amount). It paid the remaining balance on August 1. How much is recorded as Purchase discounts lost on August 1?",
+      "options": [
+        "$600",
+        "$360",
+        "$240",
+        "$0"
+      ],
+      "answer": 1,
+      "time": 90
+    },
+    {
+      "n": 22,
+      "ch": 8,
+      "topic": "Purchase discounts: gross method",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Under the gross method in a perpetual system, the purchase was recorded at the full invoice price, so a discount taken reduces the cost of the inventory with a credit to Inventory. Purchase discounts lost belongs to the net method, and Sales discounts is the seller's account.",
+      "type": "mc",
+      "prompt": "Gross Anatomy Supply Co. uses a perpetual system and the gross method. When it pays an invoice within the discount period, the discount taken is recorded as:",
+      "options": [
+        "A debit to Purchase discounts lost",
+        "A credit to Inventory",
+        "A credit to Sales discounts",
+        "A debit to Inventory"
+      ],
+      "answer": 1,
+      "time": 40
+    },
+    {
+      "n": 23,
+      "ch": 8,
+      "topic": "Perpetual LIFO",
+      "data": [
+        [
+          "March 1",
+          "Beginning inventory",
+          "200 units @ $10"
+        ],
+        [
+          "March 5",
+          "Purchase",
+          "300 units @ $12"
+        ],
+        [
+          "March 18",
+          "Sale (selling price $25)",
+          "350 units"
+        ],
+        [
+          "March 25",
+          "Purchase",
+          "250 units @ $14"
+        ]
+      ],
+      "dataHeader": [
+        "Date",
+        "Activity",
+        "Units and cost"
+      ],
+      "explain": "On March 18, the most recent units on hand are sold first: 300 × $12 + 50 × $10 = $4,100 COGS. Left: 150 × $10 = 1,500. The March 25 purchase adds 250 × $14 = 3,500. Ending inventory = 1,500 + 3,500 = $5,000. Trap: periodic LIFO would use the March 25 units too (EI = $4,400), so perpetual and periodic LIFO give different answers.",
+      "type": "mc",
+      "prompt": "Layer Cake Bakery Co. has the following inventory activity for March. Using perpetual LIFO, what are ending inventory and cost of goods sold?",
+      "options": [
+        "EI $4,400; COGS $4,700",
+        "EI $5,300; COGS $3,800",
+        "EI $5,000; COGS $4,100",
+        "EI $4,100; COGS $5,000"
+      ],
+      "answer": 2,
+      "time": 150
+    },
+    {
+      "n": 24,
+      "ch": 8,
+      "topic": "Perpetual moving-average",
+      "data": [
+        [
+          "March 1",
+          "Beginning inventory",
+          "200 units @ $10"
+        ],
+        [
+          "March 5",
+          "Purchase",
+          "300 units @ $12"
+        ],
+        [
+          "March 18",
+          "Sale (selling price $25)",
+          "350 units"
+        ],
+        [
+          "March 25",
+          "Purchase",
+          "250 units @ $14"
+        ]
+      ],
+      "dataHeader": [
+        "Date",
+        "Activity",
+        "Units and cost"
+      ],
+      "explain": "After March 5: (2,000 + 3,600) ÷ 500 units = $11.20 per unit. March 18 COGS = 350 × 11.20 = 3,920; 150 units remain at 1,680. After March 25: (1,680 + 3,500) ÷ 400 units = $12.95 per unit. Ending inventory = $5,180. Gross profit = 350 × $25 = 8,750 − 3,920 = $4,830.",
+      "type": "mc",
+      "prompt": "Layer Cake Bakery Co. has the inventory activity below. Using perpetual moving-average, what is gross profit on the March 18 sale?",
+      "options": [
+        "$4,503",
+        "$4,950",
+        "$4,650",
+        "$4,830"
+      ],
+      "answer": 3,
+      "time": 150
+    },
+    {
+      "n": 25,
+      "ch": 8,
+      "topic": "FIFO vs. LIFO with rising costs",
+      "data": null,
+      "dataHeader": null,
+      "explain": "With rising costs, LIFO puts the newest, highest costs into COGS, so COGS is higher and net income and taxes are lower. Ending inventory holds older, lower costs. The cost flow assumption does not have to match the physical flow.",
+      "type": "mc",
+      "prompt": "Up, Up and Away Balloons faces steadily rising inventory costs. Compared with FIFO, using LIFO will generally result in:",
+      "options": [
+        "Lower cost of goods sold, higher net income and higher income taxes",
+        "Higher ending inventory and higher net income",
+        "No difference, because the cost flow assumption must match the physical flow of goods",
+        "Higher cost of goods sold, lower net income and lower income taxes"
+      ],
+      "answer": 3,
+      "time": 40
+    },
+    {
+      "n": 26,
+      "ch": 8,
+      "topic": "Periodic vs. perpetual results",
+      "data": null,
+      "dataHeader": null,
+      "explain": "False. That is true for FIFO and specific identification, but LIFO and average cost can give different results under periodic and perpetual systems (see the Layer Cake Bakery questions).",
+      "type": "tf",
+      "prompt": "Stack 'Em High Co. uses LIFO. Its ending inventory and cost of goods sold will always be the same whether it uses a periodic or a perpetual system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "time": 25
+    },
+    {
+      "n": 27,
+      "ch": 8,
+      "topic": "Gross profit ratio and inventory turnover",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Gross profit ratio = (920,000 − 598,000) ÷ 920,000 = 35.0%. Average inventory = (62,000 + 68,000) ÷ 2 = 65,000. Turnover = 598,000 ÷ 65,000 = 9.2 times (cost of goods sold, not sales, is used). Average days to sell = 365 ÷ 9.2 = 39.7 days.",
+      "type": "mc",
+      "prompt": "Turn It Up Audio Co. reported net sales of $920,000 and cost of goods sold of $598,000. Inventory was $62,000 at the beginning of the year and $68,000 at the end of the year. What is the inventory turnover ratio?",
+      "options": [
+        "9.2 times",
+        "14.2 times",
+        "8.8 times",
+        "9.6 times"
+      ],
+      "answer": 0,
+      "time": 90
+    },
+    {
+      "n": 28,
+      "ch": 9,
+      "topic": "LCNRV vs. LCM",
+      "data": null,
+      "dataHeader": null,
+      "explain": "LCM applies to companies using LIFO or the retail inventory method. Companies using FIFO, average cost or other methods apply LCNRV.",
+      "type": "mc",
+      "prompt": "Lower the Bar Co. must decide which measurement rule applies to its inventory. A company should apply lower of cost or market (LCM) rather than lower of cost or net realizable value (LCNRV) if it uses:",
+      "options": [
+        "FIFO",
+        "Average cost",
+        "Specific identification",
+        "LIFO"
+      ],
+      "answer": 3,
+      "time": 40
+    },
+    {
+      "n": 29,
+      "ch": 9,
+      "topic": "LCNRV by individual item",
+      "data": [
+        [
+          "Units on hand",
+          "200",
+          "150",
+          "400"
+        ],
+        [
+          "Cost",
+          "$64",
+          "$110",
+          "$48"
+        ],
+        [
+          "Estimated selling price",
+          "$90",
+          "$125",
+          "$70"
+        ],
+        [
+          "Cost to complete",
+          "$12",
+          "$18",
+          "$15"
+        ],
+        [
+          "Selling costs",
+          "$9",
+          "$10",
+          "$6"
+        ],
+        [
+          "Transportation costs",
+          "$4",
+          "$3",
+          "$2"
+        ]
+      ],
+      "dataHeader": [
+        "Per unit",
+        "Item X",
+        "Item Y",
+        "Item Z"
+      ],
+      "explain": "NRV per unit: X = 90 − 12 − 9 − 4 = 65 (cost 64 is lower → 64); Y = 125 − 18 − 10 − 3 = 94 (lower than cost 110 → 94); Z = 70 − 15 − 6 − 2 = 47 (lower than cost 48 → 47). LCNRV = 200 × 64 + 150 × 94 + 400 × 47 = 12,800 + 14,100 + 18,800 = $45,700. Total cost = 12,800 + 16,500 + 19,200 = 48,500. Write-down = 48,500 − 45,700 = $2,800.",
+      "type": "mc",
+      "prompt": "Snack Attack Co. uses FIFO and applies LCNRV on an individual item basis. What total amount should Snack Attack report for inventory at LCNRV?",
+      "options": [
+        "$48,500",
+        "$45,700",
+        "$45,900",
+        "$2,800"
+      ],
+      "answer": 1,
+      "time": 150
+    },
+    {
+      "n": 30,
+      "ch": 9,
+      "topic": "LCM: ceiling, floor and designated market",
+      "data": [
+        [
+          "Cost",
+          "$140",
+          "$75"
+        ],
+        [
+          "Replacement cost",
+          "$120",
+          "$96"
+        ],
+        [
+          "Selling price",
+          "$180",
+          "$100"
+        ],
+        [
+          "Disposal costs",
+          "$22",
+          "$8"
+        ]
+      ],
+      "dataHeader": [
+        "Per unit",
+        "Product 1",
+        "Product 2"
+      ],
+      "explain": "Product 1: ceiling (NRV) = 180 − 22 = 158; floor = 158 − 27 (15% × 180) = 131; replacement cost 120 is below the floor, so designated market = 131 (the middle value). LCM = lower of cost 140 and 131 = $131. Product 2: ceiling = 100 − 8 = 92; floor = 92 − 15 = 77; replacement cost 96 is above the ceiling, so designated market = 92. LCM = lower of cost 75 and 92 = $75.",
+      "type": "mc",
+      "prompt": "Ceiling Fan Club Co. uses LIFO and applies LCM on an individual item basis. Its normal profit margin is 15% of selling price. At what per-unit amount should Product 1 be reported under LCM?",
+      "options": [
+        "$120",
+        "$158",
+        "$131",
+        "$140"
+      ],
+      "answer": 2,
+      "time": 120
+    },
+    {
+      "n": 31,
+      "ch": 9,
+      "topic": "Recording a write-down",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Either way, Inventory is credited for the write-down. The COGS method buries the write-down in cost of goods sold; the loss method debits Loss on write-down of inventory so the amount is visible on the income statement.",
+      "type": "mc",
+      "prompt": "Write Down Memory Lane Co. must reduce its inventory to LCNRV. Which statement about the two recording methods is correct?",
+      "options": [
+        "Both methods credit Inventory; the cost of goods sold method debits Cost of goods sold, while the loss method debits a separately reported loss.",
+        "The loss method debits Inventory and credits Loss on inventory write-down.",
+        "The cost of goods sold method does not change the Inventory account.",
+        "Only the loss method is permitted under U.S. GAAP."
+      ],
+      "answer": 0,
+      "time": 60
+    },
+    {
+      "n": 32,
+      "ch": 9,
+      "topic": "Gross profit method: GAAP use",
+      "data": null,
+      "dataHeader": null,
+      "explain": "False. The gross profit method gives only an estimate. It is acceptable for interim reports, estimating lost inventory and reasonableness checks, but annual statements require a physical count or reliable perpetual records.",
+      "type": "tf",
+      "prompt": "Rough Estimate Co. may use the gross profit method to determine ending inventory for its annual financial statements under GAAP.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "time": 25
+    },
+    {
+      "n": 33,
+      "ch": 9,
+      "topic": "Gross profit method: markup on cost, fire loss",
+      "data": [
+        [
+          "Beginning inventory, January 1",
+          "$72,000"
+        ],
+        [
+          "Purchases",
+          "$318,000"
+        ],
+        [
+          "Freight-in",
+          "$9,500"
+        ],
+        [
+          "Purchase returns",
+          "$7,500"
+        ],
+        [
+          "Sales",
+          "$540,000"
+        ],
+        [
+          "Sales returns",
+          "$12,000"
+        ]
+      ],
+      "dataHeader": null,
+      "explain": "Net sales = 540,000 − 12,000 = 528,000. With a 60% markup on cost, Sales = 1.60 × Cost, so COGS = 528,000 ÷ 1.60 = $330,000. Goods available = 72,000 + 318,000 + 9,500 − 7,500 = 392,000. Estimated inventory = 392,000 − 330,000 = $62,000. Fire loss = 62,000 − 18,000 salvaged = $44,000. Trap: using 60% of sales would give COGS of 211,200, which is wrong.",
+      "type": "mc",
+      "prompt": "A fire at Fire Sale Inc. destroyed most of its inventory on September 30. Goods costing $18,000 were salvaged. Fire Sale's markup on cost is 60%. The following data are available for January 1 through September 30. What is the estimated inventory lost in the fire?",
+      "options": [
+        "$62,000",
+        "$36,500",
+        "$162,800",
+        "$44,000"
+      ],
+      "answer": 3,
+      "time": 150
+    },
+    {
+      "n": 34,
+      "ch": 9,
+      "topic": "Markup on cost vs. gross profit %",
+      "data": null,
+      "dataHeader": null,
+      "explain": "If cost = $100, the selling price is $125 and gross profit is $25. Gross profit ÷ sales = 25 ÷ 125 = 20%.",
+      "type": "mc",
+      "prompt": "Markup Your Mind Co. prices its goods at a 25% markup on cost. What is its gross profit percentage on sales?",
+      "options": [
+        "25%",
+        "20%",
+        "33.3%",
+        "75%"
+      ],
+      "answer": 1,
+      "time": 40
+    },
+    {
+      "n": 35,
+      "ch": 9,
+      "topic": "Conventional retail method",
+      "data": [
+        [
+          "Beginning inventory",
+          "$38,000",
+          "$64,000"
+        ],
+        [
+          "Purchases",
+          "$212,000",
+          "$336,000"
+        ],
+        [
+          "Freight-in",
+          "$6,400",
+          ""
+        ],
+        [
+          "Purchase returns",
+          "$5,400",
+          "$8,000"
+        ],
+        [
+          "Purchase discounts",
+          "$3,000",
+          ""
+        ],
+        [
+          "Markups",
+          "",
+          "$22,000"
+        ],
+        [
+          "Markup cancellations",
+          "",
+          "$6,000"
+        ],
+        [
+          "Markdowns",
+          "",
+          "$14,000"
+        ],
+        [
+          "Markdown cancellations",
+          "",
+          "$3,500"
+        ],
+        [
+          "Abnormal shortage",
+          "$2,000",
+          "$4,000"
+        ],
+        [
+          "Normal shrinkage",
+          "",
+          "$2,500"
+        ],
+        [
+          "Employee discounts",
+          "",
+          "$1,800"
+        ],
+        [
+          "Sales",
+          "",
+          "$290,000"
+        ],
+        [
+          "Sales returns",
+          "",
+          "$9,000"
+        ]
+      ],
+      "dataHeader": [
+        "",
+        "Cost",
+        "Retail"
+      ],
+      "explain": "Cost: 38,000 + 212,000 + 6,400 − 5,400 − 3,000 − 2,000 = 246,000. Retail (before markdowns): 64,000 + 336,000 − 8,000 + 22,000 − 6,000 − 4,000 = 404,000. Cost-to-retail = 246,000 ÷ 404,000 = 60.89%. Net markdowns are left out of the ratio under the conventional method. Ending retail = 404,000 − 14,000 + 3,500 − 2,500 − 1,800 − 290,000 + 9,000 = $108,200. Ending cost = 108,200 × 0.608911 = $65,884.",
+      "type": "mc",
+      "prompt": "Mark My Words Bookstore uses the conventional retail inventory method. What is ending inventory at cost (conventional retail)?",
+      "options": [
+        "$65,884",
+        "$67,642",
+        "$108,200",
+        "$68,200"
+      ],
+      "answer": 0,
+      "time": 180
+    },
+    {
+      "n": 36,
+      "ch": 9,
+      "topic": "Why net markdowns are excluded",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Leaving markdowns out keeps the retail denominator larger, which lowers the ratio and the estimated ending inventory at cost. This conservative result approximates LCM.",
+      "type": "mc",
+      "prompt": "Mark-Down to Earth Co. uses the conventional retail method. Why are net markdowns excluded when computing its cost-to-retail percentage?",
+      "options": [
+        "Excluding them produces a lower cost-to-retail percentage, so ending inventory approximates lower of cost or market.",
+        "Markdowns are recorded at cost, not retail.",
+        "Excluding them produces a higher cost-to-retail percentage, so ending inventory approximates current cost.",
+        "Markdowns only matter under the LIFO retail method."
+      ],
+      "answer": 0,
+      "time": 60
+    },
+    {
+      "n": 37,
+      "ch": 9,
+      "topic": "Retail method: shortages",
+      "data": null,
+      "dataHeader": null,
+      "explain": "Abnormal shortages are unusual losses, so they are removed from goods available at both cost and retail (and expensed separately). Normal shortages are a regular cost of doing business, so they are deducted only at retail, after the ratio.",
+      "type": "mc",
+      "prompt": "Shrink Wrap Co. uses the conventional retail method. How are normal and abnormal shortages handled?",
+      "options": [
+        "Both are deducted from cost and retail before computing the cost-to-retail percentage.",
+        "Both are ignored because they are expected.",
+        "Abnormal shortages are deducted from both cost and retail before computing the percentage; normal shortages are deducted from retail only, after the percentage is computed.",
+        "Normal shortages are deducted from both cost and retail; abnormal shortages are deducted from retail only."
+      ],
+      "answer": 2,
+      "time": 60
+    },
+    {
+      "n": 38,
+      "ch": 9,
+      "topic": "Inventory errors over two years",
+      "data": null,
+      "dataHeader": null,
+      "explain": "2025: overstated ending inventory understated COGS and overstated income, so corrected NI = 120,000 − 8,000 = $112,000. 2026: the overstated beginning inventory overstated 2026 COGS (+8,000 to fix), and the understated ending inventory also overstated COGS (+5,000 to fix). Corrected NI = 135,000 + 8,000 + 5,000 = $148,000. The 2025 error reversed itself in 2026, so only the 2026 error remains: retained earnings are understated by $5,000.",
+      "type": "mc",
+      "prompt": "Count Me Out Co. reported net income of $120,000 in 2025 and $135,000 in 2026. It later discovered that 2025 ending inventory was overstated by $8,000 and 2026 ending inventory was understated by $5,000. Ignore income taxes. What is corrected 2026 net income?",
+      "options": [
+        "$140,000",
+        "$148,000",
+        "$132,000",
+        "$143,000"
+      ],
+      "answer": 1,
+      "time": 120
+    },
+    {
+      "n": 39,
+      "ch": 9,
+      "topic": "Self-correcting inventory errors",
+      "data": null,
+      "dataHeader": null,
+      "explain": "True. The overstatement raises 2025 income and lowers 2026 income by the same amount (through beginning inventory), so the error reverses by the end of 2026. Each year's net income is still misstated.",
+      "type": "tf",
+      "prompt": "Self-Correcting Pen Co. overstated its 2025 ending inventory, and the error was never corrected. Assuming no other errors, retained earnings at December 31, 2026 are correctly stated.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "time": 25
+    },
+    {
+      "n": 40,
+      "ch": 9,
+      "topic": "Uses of the gross profit method",
+      "data": null,
+      "dataHeader": null,
+      "explain": "The gross profit method is suitable for estimates: lost or destroyed inventory, interim reports, audit reasonableness tests and budgets. It is not acceptable in place of a physical count for annual GAAP statements.",
+      "type": "ms",
+      "prompt": "Ballpark Figure Co. is considering the gross profit method. For which of the following purposes is the gross profit method appropriate?",
+      "options": [
+        "Estimating inventory destroyed by a flood",
+        "Preparing interim (quarterly) financial statements",
+        "Replacing the year-end physical count for the annual financial statements",
+        "An auditor's test of whether reported inventory is reasonable",
+        "Budgeting and forecasting"
+      ],
+      "answer": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "time": 60
+    }
+  ]
+}
